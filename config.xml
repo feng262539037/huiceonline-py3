@@ -1,0 +1,14 @@
+<project>
+    <database>
+        <host>139.199.132.220</host>
+        <user>root</user>
+        <password>123456</password>
+        <db>event</db>
+    </database>
+    <cases>
+        <AAARegister-Register-register01/>
+        <!--<AAARegister-Register-register01/>-->
+        <!--<Event-AddEvent-addevent01/>-->
+        <Event-EventDetail-eventdetail01/>
+    </cases>
+</project>
