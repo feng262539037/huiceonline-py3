@@ -46,32 +46,60 @@ if __name__ == '__main__':
     #（节点名） ./代表project根节点
     list = et.findall('./cases/*')
     for i in list:
-        directory_name = i.tag.split('-')[0]
-        class_name = i.tag.split('-')[1]
-        method_name = i.tag.split('-')[-1]
+        directory_name = i.tag.split('-')[0] #AAARegister, AAARegister, Event,Event
+        class_name = i.tag.split('-')[1]     #Register,Register,AddEvent,EventDetail
+        method_name = i.tag.split('-')[-1]   #register01,register02,addevent01,eventdetail01
         #exec：把字符串当成代码执行！！！
         exec('from cases.%s import %s' % (directory_name, class_name))
-        exec("suite.addTest(%s.%s('test_%s'))" % (class_name, class_name, method_name))
+        try:
+            #没有数据驱动的
+            exec("suite.addTest(%s.%s('test_%s'))" % (class_name, class_name, method_name))
+        except ValueError:
+            #有数据驱动
+            # from cases.AAARegister import Register
+            # #test_register02开头的，是数据驱动
+            # #['test_register01', 'test_register02_1', 'test_register02_2', 'test_register02_3', 'test_register02_4']
+            # print(unittest.defaultTestLoader.getTestCaseNames(Register.Register))
+
+            li = eval('unittest.defaultTestLoader.getTestCaseNames(%s.%s)' % (class_name, class_name))
+            for l in li:
+                if l.startswith('test_' + method_name):
+                    exec("suite.addTest(%s.%s('%s'))" % (class_name, class_name, l))
+
     time = time.strftime('%Y-%m-%d_%H%M%S', time.localtime(time.time()))
     path = sys.argv[0] + '\\..\\report\\' + time + '.html'
+    #用open函数：把文件变成二进制流
     fp = open(path, 'wb')
     HTMLTestReportCN.HTMLTestRunner(stream=fp, tester='QA', title='接口测试报告').run(suite)
     fp.close()
     shutil.copyfile(path, sys.argv[0] + '\\..\\report\\report.html')
 
-    #简化版（方式二）：可集成jenkins，运行所有测试用例
+    #完整版：可集成jenkins，运行所有测试用例
     # start_dir = sys.argv[0] + '\\..\\cases\\'
     # suite = unittest.defaultTestLoader.discover(start_dir=start_dir, pattern='*.py')
-    # fp = open(sys.argv[0] + '\\..\\report.html', 'wb')
+    # time = time.strftime('%Y-%m-%d_%H%M%S', time.localtime(time.time()))
+    # path = sys.argv[0] + '\\..\\report\\' + time + '.html'
+    # #用open函数：把文件变成二进制流
+    # fp = open(path, 'wb')
+    # HTMLTestReportCN.HTMLTestRunner(stream=fp, tester='QA', title='接口测试报告').run(suite)
+    # fp.close()
+    # shutil.copyfile(path, sys.argv[0] + '\\..\\report\\report.html')
+
+    #最终简化版
+    # start_dir = sys.argv[0] + '\\..\\cases\\'
+    # suite = unittest.defaultTestLoader.discover(start_dir=start_dir, pattern='*.py')
+    # path = sys.argv[0] + '\\..\\report.html'
+    # fp = open(path, 'wb')
     # HTMLTestReportCN.HTMLTestRunner(stream=fp).run(suite)
 
+    #链接数据库
+    # from xml.etree import ElementTree as ET
     # database = {}
     # et = ET.parse('./config.xml')
-    # data_config_list = et.findall('./database/*')
-    # for d in data_config_list:
+    # database_list = et.findall('./database/*')
+    # for d in database_list:
     #     database[d.tag] = d.text
     # #for循环正常执行后，才会执行else
     # else:
     #     client.Client.DB = pymysql.connect(host=database.get('host'), user=database.get('user'), password=database.get('password'), db=database.get('db'))
-
 

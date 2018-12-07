@@ -3,6 +3,8 @@ import unittest
 import hashlib
 import pymysql
 import jsonpath
+import util
+import sys
 
 #用类变量代替固定的数值
 class Method:
@@ -11,37 +13,36 @@ class Method:
     POST = 'POST'
 
 #用类变量代替固定的数值
-class Type:
+class Content_Type:
     # 用大写的变量名（等号前面的）代替具体的数值
-    FORM = 1
-    URL_ENCODE = 2
-    XML = 3
-    JSON = 4
-    File = 5
+    FORM = 'form-data'
+    URL_ENCODE = 'url_encoded'
+    XML = 'text/xml'
+    JSON = 'application/json'
+    File = 'binary'
 
-#类：共享很多变量，它比单独写方法send好
+#类：共享很多变量，它比单独写send方法好
 class Client(unittest.TestCase):
-    #全局变量大写，不能放在init中，只在整体项目运行时，运行一次。
-    #类变量的初始化
-    DATA = {}
-    #全局变量
-    # DB = None
+    #类变量的初始化，不能放在init中，只在整体项目运行时，运行一次。
+    '''类变量'''
+    VALAUES = {}
 
-    #初始化函数：用户传入的参数，不要写太多逻辑
-    #self. :代表当前对象本身专属的变量！！！！！
-    #type 选填（get没有type）
-    #__:私有化变量！！！
+    DB = None
+
+    # 初始化函数：用户传入的参数，不要写太多逻辑
+    # self. :代表当前对象本身专属的变量！！！！！
+    # content_type 选填（get没有type）
+    # __:私有化变量！！！
     '''初始化函数(构造方法)，必填参数：url，method'''
-    def __init__(self, url, method, type=0):
+    def __init__(self, url, method, content_type=0):
         self.__url = url
         self.__method = method
-        self.__type = type
-        #我们的头信息是字典，所以这里也给定义为字典
-        #每次实例化Client对象，就有一个字典
+        self.__content_type = content_type
+        # 我们的头信息是字典，所以这里也给定义为字典
+        # 每次实例化Client对象，就有一个字典
         self.__headers = {}
         self.__data = {}
         self.__res = None
-        self.db = pymysql.connect(host='139.199.132.220', user='root', password='123456', db='event')
         #
         self._type_equality_funcs = {}
 
@@ -49,7 +50,7 @@ class Client(unittest.TestCase):
     #成员方法，直接调用__init__中的headers
     #让用户用此方法给headers赋值，不能直接访问init中的headers
     #self：当前对象，所以能直接访问init中的headers
-    # 谁实例化client对象，self就代表谁
+    #谁实例化client对象，self就代表谁
     def set_headers(self, headers):
         if isinstance(headers, dict):
             self.__headers = headers
@@ -83,13 +84,8 @@ class Client(unittest.TestCase):
         md5.update(md5_str.encode(encoding="utf-8"))
         self.__data['sign'] = md5.hexdigest()
 
-    '''发送请求;同时在头信息中添加Content-Type;响应保存在self.__res对象中'''
-    # 0 -- post请求，无正文体，就要把参数拼接在地址栏中
-    #FORM = 1
-    #URL_ENCODE = 2
-    #XML = 3
-    #JSON = 4
-    #File = 5
+    '''发送请求--->同时在头信息中添加Content-Type--->响应保存在self.__res对象中'''
+    #0 -- post请求，无正文体，就要把参数拼接在地址栏中
     def send(self):
         #get请求
         if self.__method == 'GET':
@@ -99,16 +95,16 @@ class Client(unittest.TestCase):
         #post请求
         elif self.__method == 'POST':
             #post请求：正文体form表单，不要指定Content-Type，如果指定反而会报错
-            if self.__type == 1:
+            if self.__content_type == 'form-data':
                 self.__res = requests.post(url=self.__url, data=self.__data, headers = self.__headers)
             #post请求：正文体url_encoded
-            elif self.__type == 2:
+            elif self.__content_type == 'url_encoded':
                 #self调用成员方法
-                # self有对象才能调用
+                #self有对象才能调用
                 self.__headers['Content-Type'] = 'application/x-www-form-urlencoded'
                 self.__res = requests.post(url=self.__url, data=self.__data, headers = self.__headers)
             # post请求：正文体xml字符串
-            elif self.__type == 3:
+            elif self.__content_type == 'text/xml':
                 xml = self.__data.get('xml')
                 if xml and isinstance(xml, str):
                     self.__headers['Content-Type'] = 'text/xml'
@@ -117,15 +113,15 @@ class Client(unittest.TestCase):
                 else:
                     raise Exception('xml正文的请求，请正确添加xml字符串：{"xml", xml}')
             # post请求：正文体json串
-            elif self.__type == 4:
+            elif self.__content_type == 'application/json':
                 self.__headers['Content-Type'] = 'application/json'
                 #用户传字典，所以这里要写json=
                 self.__res = requests.post(url=self.__url, json=self.__data, headers=self.__headers)
             # post请求：上传文件，不需要指定Content-Type
-            elif self.__type == 5:
+            elif self.__content_type == 'binary':
                 self.__res = requests.post(url=self.__url, files=self.__data, headers=self.__headers)
             #post请求：无正文体,就把参数拼在地址栏，一般不这么干
-            elif self.__type == 0:
+            elif self.__content_type == 0:
                 self.__res = requests.post(url=self.__url, headers=self.__headers)
             else:
                 raise Exception('不支持的post请求正文格式')
@@ -134,7 +130,7 @@ class Client(unittest.TestCase):
             raise Exception('不支持的请求方法类型')
 
     '''获取响应文本'''
-    #@property:装饰器，用户调用def text(self)这个函数时，只需要写res_text，不需要写res_text()
+    #@property:装饰器，用户调用def text(self)这个函数时，只需要写res_text（看起来简洁），不需要写res_text()
     #这个方法，除了self，没有其他入参
     @property
     def res_text(self):
@@ -205,6 +201,8 @@ class Client(unittest.TestCase):
         if self.__res:
             self.assertEqual(self.__res.status_code, exp, '响应状态码错误。实际结果[{first}]，预期结果：[{second}]'.format(first=str(self.__res.status_code), second=exp))
             print('断言成功。响应状态码的实际结果：[{first}]，预期结果：[{second}]'.format(first=str(self.__res.status_code), second=exp))
+        else:
+            self.assertTrue(False, '无法获取相应状态码')
 
     '''断言：响应时间'''
     def check_res_time_less(self, exp):
@@ -219,10 +217,13 @@ class Client(unittest.TestCase):
             #如果用%s 就一定是字符串
             #如果用这种方法，{a}不是字符串，会自动转成字符串
             print('断言成功：实际结果[{first}],预期结果[{second}]'.format(first=act, second=exp))
+        else:
+            return None
 
-    '''链接数据库;查询 或 执行数据库语句;断开数据库'''
+    '''链接数据库--->查询 或 执行数据库语句--->断开数据库'''
     def db_values(self, sql):
         #链接数据库
+        self.db = pymysql.connect(host='139.199.132.220', user='root', password='123456', db='event')
         if self.db:
             try:
                 #创建游标
@@ -244,6 +245,30 @@ class Client(unittest.TestCase):
         else:
             raise Exception('数据库链接失败')
 
+        #优化
+        # if Client.DB:
+        #     try:
+        #         #创建游标
+        #         cursor = Client.DB.cursor()
+        #         #执行sql语句
+        #         cursor.execute(sql)
+        #         #提交
+        #         Client.DB.commit()
+        #         #查询所有返回数据，而为元祖
+        #         return cursor.fetchall()
+        #     except Exception as e:
+        #         print(e)
+        #         raise Exception('数据库操作失败')
+        #     finally:
+        #         #如果没使用DB，close会报异常
+        #         #所以添加if
+        #         if Client.DB:
+        #             Client.DB.close()
+        # else:
+        #     raise Exception('数据库链接失败')
+
+
+
     '''断言：数据库值 等于 接口返回值？(单个值)'''
     def check_db1(self, exp, sql):
         data = self.db_values(sql)
@@ -252,12 +277,14 @@ class Client(unittest.TestCase):
         else:
             raise Exception('数据库取值无效：' + sql)
 
-    '''断言(jsonpath)：响应值 等于 数据库查询回的结果'''
+    '''断言(jsonpath)：接口实际的响应值 等于 数据库查询回的结果？(单个值)'''
     def check_db2(self, path, sql):
         data = self.db_values(sql)
         exp = self.json_value(path)
         if data:
             if exp:
+                #接口返回的是str
+                #因此，把数据库查询回的结果，转成str类型
                 self.check_equal(exp, str(data[0][0]))
             else:
                 self.assertFalse(True, 'json取值无效：' + path)
@@ -268,11 +295,27 @@ class Client(unittest.TestCase):
     #value：变量值
     #把值传给变量
     #如果用self.DATA:只改对象自己，对其他对象不生效
-    #比如用类名.DATA：更改类变量，对所有对象生效！！！！！
-    '''传值'''
-    def transmit(self, key, value):
-        Client.DATA[key] = value
+    #如果用类名.DATA：更改类变量，对所有对象生效！！！！！
+    # '''传值'''
+    # def transmit(self, key, value):
+    #     Client.DATA[key] = value
+    #
+    # '''取值'''
+    # def value(self, key):
+    #     return Client.DATA.get(key)
 
+    '''传值'''
+    def transmit(self, name, path):
+        node = self.json_value(path)
+        if node:
+            Client.VALAUES[name] = node
+        else:
+            raise Exception('未获取到要传递的值:' + path)
     '''取值'''
-    def value(self, key):
-        return Client.DATA.get(key)
+    def value(self, name):
+        v = Client.VALAUES.get(name)
+        if v:
+            return v
+        else:
+            raise Exception('要获取的变量不存在:' + name)
+

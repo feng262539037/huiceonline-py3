@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0e2a48-90e0-476c-8f47-b6061dac3441" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cases.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/demo4.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/2018-09-28_210005.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/report.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cases/AAARegister/Register.py" afterPath="$PROJECT_DIR$/cases/AAARegister/Register.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cases/Event/AddEvent.py" afterPath="$PROJECT_DIR$/cases/Event/AddEvent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cases/Event/EventDetail.py" afterPath="$PROJECT_DIR$/cases/Event/EventDetail.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.py" afterPath="$PROJECT_DIR$/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/CheckPoint.py" afterPath="$PROJECT_DIR$/demos/CheckPoint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/demo3.py" afterPath="$PROJECT_DIR$/demos/demo3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/requests_demo_01.py" afterPath="$PROJECT_DIR$/demos/requests_demo_01.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util.py" afterPath="$PROJECT_DIR$/util.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +28,28 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_for_demo2_MyTest.coverage" NAME="Unittests for demo2.MyTest Coverage Results" MODIFIED="1536747684423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_AAARegister_AAARegister_setUp.coverage" NAME="Unittests for AAARegister.AAARegister.setUp Coverage Results" MODIFIED="1537413254825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$util.coverage" NAME="util Coverage Results" MODIFIED="1541769184037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$requests_demo_01.coverage" NAME="requests_demo_01 Coverage Results" MODIFIED="1537426163671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$AAARegister.coverage" NAME="AAARegister Coverage Results" MODIFIED="1538123626119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_in_demo4_py.coverage" NAME="Unittests in demo4.py Coverage Results" MODIFIED="1539689685332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_for_EventDetail_EventDetail_test_eventdetail01.coverage" NAME="Unittests for EventDetail.EventDetail.test_eventdetail01 Coverage Results" MODIFIED="1542795253761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/Event" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$case.coverage" NAME="case Coverage Results" MODIFIED="1536218662810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_in_demo_py.coverage" NAME="Unittests in demo.py Coverage Results" MODIFIED="1536747456519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_in_AAARegister_py.coverage" NAME="Unittests in AAARegister.py Coverage Results" MODIFIED="1537433542763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_client_Client_send.coverage" NAME="Unittests for client.Client.send Coverage Results" MODIFIED="1537413201564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$demo.coverage" NAME="demo Coverage Results" MODIFIED="1537328111710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_AddEvent_AddEvent_test_addevent01.coverage" NAME="Unittests for AddEvent.AddEvent.test_addevent01 Coverage Results" MODIFIED="1538130570024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/Event" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$requests_demo_01.coverage" NAME="requests_demo_01 Coverage Results" MODIFIED="1543572854274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_for_AddEvent_AddEvent_test_addevent01.coverage" NAME="Unittests for AddEvent.AddEvent.test_addevent01 Coverage Results" MODIFIED="1537263474348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_for_Register_Register_test_register02.coverage" NAME="Unittests for Register.Register.test_register02 Coverage Results" MODIFIED="1541152711157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/AAARegister" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_for_EventDetail_EventDetail_test_eventdetail01.coverage" NAME="Unittests for EventDetail.EventDetail.test_eventdetail01 Coverage Results" MODIFIED="1537170624274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_in_EventDetail_py.coverage" NAME="Unittests in EventDetail.py Coverage Results" MODIFIED="1537170616878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$Unittests_in_demo_py.coverage" NAME="Unittests in demo.py Coverage Results" MODIFIED="1536574244727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$Unittests_in_case03_py.coverage" NAME="Unittests in case03.py Coverage Results" MODIFIED="1536221835318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_for_AddEvent_AddEvent_test_addevent01.coverage" NAME="Unittests for AddEvent.AddEvent.test_addevent01 Coverage Results" MODIFIED="1539611548283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/Event" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$encrypt.coverage" NAME="encrypt Coverage Results" MODIFIED="1536634873648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1537432833581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1539587299748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_AAARegister_AAARegister_test_register01.coverage" NAME="Unittests for AAARegister.AAARegister.test_register01 Coverage Results" MODIFIED="1538123682799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1537354575383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_client_Client.coverage" NAME="Unittests for client.Client Coverage Results" MODIFIED="1537413619305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,17 +57,22 @@
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1537338334251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_in_EventDetail_py.coverage" NAME="Unittests in EventDetail.py Coverage Results" MODIFIED="1537434386969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1536664356708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_for_demo4_A_test_ddt.coverage" NAME="Unittests for demo4.A.test_ddt Coverage Results" MODIFIED="1539690040742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$case0.coverage" NAME="case0 Coverage Results" MODIFIED="1537261802993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_for_client_Client.coverage" NAME="Unittests for client.Client Coverage Results" MODIFIED="1538207761383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$Unittests_for_case03_MyTest.coverage" NAME="Unittests for case03.MyTest Coverage Results" MODIFIED="1536221642697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_for_demo_MyTest.coverage" NAME="Unittests for demo.MyTest Coverage Results" MODIFIED="1536747625195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_EventDetail_EventDetail_test_eventdetail01.coverage" NAME="Unittests for EventDetail.EventDetail.test_eventdetail01 Coverage Results" MODIFIED="1537434409238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
-    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$run.coverage" NAME="run Coverage Results" MODIFIED="1538139605116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$run.coverage" NAME="run Coverage Results" MODIFIED="1543925585273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$demo05.coverage" NAME="demo05 Coverage Results" MODIFIED="1543920033638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_for_Register_Register_test_register01.coverage" NAME="Unittests for Register.Register.test_register01 Coverage Results" MODIFIED="1539675973278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/AAARegister" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$Unittests_for_AAARegister_AAARegister_test_register02.coverage" NAME="Unittests for AAARegister.AAARegister.test_register02 Coverage Results" MODIFIED="1537432921959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$Unittests_for_demo_MyTest_test_case02.coverage" NAME="Unittests for demo.MyTest.test_case02 Coverage Results" MODIFIED="1536574105035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$case01.coverage" NAME="case01 Coverage Results" MODIFIED="1536574091238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_for_Register_Register_test_register02.coverage" NAME="Unittests for Register.Register.test_register02 Coverage Results" MODIFIED="1537237205256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$Unittests_for_case03_MyTest_test_case03.coverage" NAME="Unittests for case03.MyTest.test_case03 Coverage Results" MODIFIED="1536221629602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$run.coverage" NAME="run Coverage Results" MODIFIED="1536738704050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
+    <SUITE FILE_PATH="coverage/ITest_huiceonline_py3$Unittests_in_Register_py.coverage" NAME="Unittests in Register.py Coverage Results" MODIFIED="1539690806792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases/AAARegister" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$run.coverage" NAME="run Coverage Results" MODIFIED="1537264886100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$case02.coverage" NAME="case02 Coverage Results" MODIFIED="1536574056616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2$Unittests_for_Register_Register_test_register01.coverage" NAME="Unittests for Register.Register.test_register01 Coverage Results" MODIFIED="1536837471752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
@@ -64,36 +90,87 @@
     <SUITE FILE_PATH="coverage/ITest_huiceonline_3$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1536737765297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITest_huiceonline_2233$case0.coverage" NAME="case0 Coverage Results" MODIFIED="1537272667531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cases" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ITest-huiceonline-py3" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util.py">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="76" lean-forward="false" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+            <state relative-caret-position="26">
+              <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="26" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="1716">
+              <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
+      <file leaf-file-name="report.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding>
+                <marker date="1543925586345" expanded="true" signature="11670:11677" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cases/AAARegister/Register.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+                <marker date="1542792698294" expanded="true" signature="946:995" ph="SELECT id fR... auth_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventDetail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cases/Event/EventDetail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <marker date="1539657963378" expanded="true" signature="462:486" ph="select id fr... api_event" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo05.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demos/demo05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -102,10 +179,11 @@
       <file leaf-file-name="AddEvent.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cases/Event/AddEvent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="806">
+              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
-                <marker date="1538130657897" expanded="true" signature="323:369" ph="delete from " />
+                <marker date="1539686489760" expanded="true" signature="464:510" ph="delete from " />
+                <marker date="1539686489760" expanded="true" signature="1191:1238" ph="select id fr... api_event" />
               </folding>
             </state>
           </provider>
@@ -114,8 +192,30 @@
       <file leaf-file-name="requests_demo_01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos/requests_demo_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="97" column="14" lean-forward="false" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+            <state relative-caret-position="2834">
+              <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="52" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1794">
+              <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -137,6 +237,12 @@
       <find>装饰器</find>
       <find>res_json()</find>
       <find>print</find>
+      <find>游标</find>
+      <find>commit()</find>
+      <find>self.__res.status_code</find>
+      <find>type</find>
+      <find>DB</find>
+      <find>with</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -178,24 +284,26 @@
         <option value="$PROJECT_DIR$/demos/demo2.py" />
         <option value="$PROJECT_DIR$/cases/run.py" />
         <option value="$PROJECT_DIR$/cases/demo.py" />
-        <option value="$PROJECT_DIR$/demos/demo3.py" />
-        <option value="$PROJECT_DIR$/demos/demo4.py" />
         <option value="$PROJECT_DIR$/demos/demo_01.py" />
         <option value="$PROJECT_DIR$/demos/requests_demo_03.py" />
-        <option value="$PROJECT_DIR$/demos/requests_demo_01.py" />
         <option value="$PROJECT_DIR$/demos/demo.py" />
-        <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/cases/EventDetail.py" />
         <option value="$PROJECT_DIR$/cases/AddEvent.py" />
         <option value="$PROJECT_DIR$/cases/AAARegister.py" />
         <option value="$PROJECT_DIR$/cases/AAARegister/AAARegister.py" />
-        <option value="$PROJECT_DIR$/cases/AAARegister/Register.py" />
-        <option value="$PROJECT_DIR$/cases/Event/EventDetail.py" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/demos/demo3.py" />
+        <option value="$PROJECT_DIR$/demos/CheckPoint.py" />
+        <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/cases/Event/AddEvent.py" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/demos/demo4.py" />
         <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/cases/AAARegister/Register.py" />
+        <option value="$PROJECT_DIR$/cases/Event/EventDetail.py" />
+        <option value="$PROJECT_DIR$/demos/requests_demo_01.py" />
+        <option value="$PROJECT_DIR$/demos/demo05.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -226,7 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,7 +356,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demos" />
+              <option name="myItemId" value="report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,11 +399,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/ITest" />
+    <property name="last_opened_file_path" value="F:/shareit_interface" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -309,11 +417,11 @@
       <recent name="F:\ITest-huiceonline-3\cases" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ITest-huiceonline-py3" />
       <recent name="E:\ITest-huiceonline-2233\demos" />
       <recent name="E:\ITest-huiceonline-2233\cases\Event" />
       <recent name="E:\ITest-huiceonline-2233\cases\AAA_Register" />
       <recent name="E:\ITest-huiceonline-2233" />
-      <recent name="F:\ITest-huiceonline-3\cases" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,22 +437,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.run">
-    <configuration default="false" name="Unittests for EventDetail.EventDetail.test_eventdetail01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ITest-huiceonline-3" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;EventDetail.EventDetail.test_eventdetail01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
     <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,42 +456,45 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for cases.AAARegister.Register.AAARegister.test_register01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ITest-huiceonline-3" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;cases.AAARegister.Register.AAARegister.test_register01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AAARegister" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ITest-huiceonline-3" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cases/AAARegister.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for AddEvent.AddEvent.test_addevent01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="requests_demo_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ITest-huiceonline-3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demos/requests_demo_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for EventDetail.EventDetail.test_eventdetail01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -411,8 +506,27 @@
       <module name="ITest-huiceonline-3" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;AddEvent.AddEvent.test_addevent01&quot;" />
+      <option name="_new_target" value="&quot;EventDetail.EventDetail.test_eventdetail01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="demo05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ITest-huiceonline-3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demos/demo05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -564,19 +678,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for EventDetail.EventDetail.test_eventdetail01" />
-      <item index="1" class="java.lang.String" itemvalue="Python.run" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for cases.AAARegister.Register.AAARegister.test_register01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.AAARegister" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for AddEvent.AddEvent.test_addevent01" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run" />
+      <item index="1" class="java.lang.String" itemvalue="Python.util" />
+      <item index="2" class="java.lang.String" itemvalue="Python.requests_demo_01" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for EventDetail.EventDetail.test_eventdetail01" />
+      <item index="4" class="java.lang.String" itemvalue="Python.demo05" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for AddEvent.AddEvent.test_addevent01" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for cases.AAARegister.Register.AAARegister.test_register01" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AAARegister" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for EventDetail.EventDetail.test_eventdetail01" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo05" />
+        <item index="2" class="java.lang.String" itemvalue="Python.requests_demo_01" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for EventDetail.EventDetail.test_eventdetail01" />
+        <item index="4" class="java.lang.String" itemvalue="Python.util" />
       </list>
     </recent_temporary>
   </component>
@@ -597,47 +711,57 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_AAARegister_AAARegister_test_register01 - 2018.09.28 at 14h 57m 51s.xml">
-      <configuration name="Unittests for AAARegister.AAARegister.test_register01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AAARegister_AAARegister_test_register01 - 2018.09.28 at 16h 34m 43s.xml">
-      <configuration name="Unittests for AAARegister.AAARegister.test_register01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_AddEvent_AddEvent_test_addevent01 - 2018.09.28 at 18h 29m 30s.xml">
-      <configuration name="Unittests for AddEvent.AddEvent.test_addevent01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_EventDetail_EventDetail - 2018.09.20 at 17h 02m 37s.xml">
-      <configuration name="Unittests for EventDetail.EventDetail" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_EventDetail_EventDetail_test_eventdetail01 - 2018.09.20 at 17h 02m 27s.xml">
+    <history-entry file="Unittests_for_EventDetail_EventDetail_test_eventdetail01 - 2018.11.21 at 18h 14m 14s.xml">
       <configuration name="Unittests for EventDetail.EventDetail.test_eventdetail01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_EventDetail_EventDetail_test_eventdetail01 - 2018.09.20 at 17h 05m 15s.xml">
-      <configuration name="Unittests for EventDetail.EventDetail.test_eventdetail01" configurationId="tests" />
+    <history-entry file="Unittests_for_Register_Register_test_register01 - 2018.10.16 at 15h 46m 13s.xml">
+      <configuration name="Unittests for Register.Register.test_register01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_EventDetail_EventDetail_test_eventdetail01 - 2018.09.20 at 17h 05m 50s.xml">
-      <configuration name="Unittests for EventDetail.EventDetail.test_eventdetail01" configurationId="tests" />
+    <history-entry file="Unittests_for_Register_Register_test_register02 - 2018.11.02 at 17h 58m 31s.xml">
+      <configuration name="Unittests for Register.Register.test_register02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_EventDetail_EventDetail_test_eventdetail01 - 2018.09.20 at 17h 06m 49s.xml">
-      <configuration name="Unittests for EventDetail.EventDetail.test_eventdetail01" configurationId="tests" />
+    <history-entry file="Unittests_for_demo4_A_test_ddt - 2018.10.16 at 19h 39m 45s.xml">
+      <configuration name="Unittests for demo4.A.test_ddt" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_AddEvent_py - 2018.09.20 at 17h 00m 20s.xml">
-      <configuration name="Unittests in AddEvent.py" configurationId="tests" />
+    <history-entry file="Unittests_for_demo4_A_test_ddt - 2018.10.16 at 19h 40m 40s.xml">
+      <configuration name="Unittests for demo4.A.test_ddt" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_EventDetail_py - 2018.09.20 at 17h 06m 27s.xml">
-      <configuration name="Unittests in EventDetail.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Register_py - 2018.10.16 at 19h 53m 27s.xml">
+      <configuration name="Unittests in Register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_demo4_py - 2018.10.16 at 19h 28m 38s.xml">
+      <configuration name="Unittests in demo4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_demo4_py - 2018.10.16 at 19h 28m 52s.xml">
+      <configuration name="Unittests in demo4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_demo4_py - 2018.10.16 at 19h 33m 02s.xml">
+      <configuration name="Unittests in demo4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_demo4_py - 2018.10.16 at 19h 34m 45s.xml">
+      <configuration name="Unittests in demo4.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20670392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4388807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -660,20 +784,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cases/Event/AddEvent.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cases/TestBase.py" />
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cases/run.py" />
     <entry file="file://$PROJECT_DIR$/cases/AAARegister.py" />
     <entry file="file://$PROJECT_DIR$/cases/AddEvent.py" />
@@ -690,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,8 +853,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cases/demo3.py" />
-    <entry file="file://$PROJECT_DIR$/demos/demo4.py" />
-    <entry file="file://$PROJECT_DIR$/report/report.html" />
     <entry file="file://$PROJECT_DIR$/demos/requests_demo_03.py" />
     <entry file="file://$PROJECT_DIR$/cases/__init__.py" />
     <entry file="file://$PROJECT_DIR$/cases/EventDetail.py" />
@@ -748,96 +865,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cases/AAARegister/Register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/Event/EventDetail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/report.html" />
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demos/CheckPoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/demo3.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demos/requests_demo_02.py">
+    <entry file="file://C:/Python36/Lib/site-packages/jsonpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="76" lean-forward="false" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/Event/AddEvent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <marker date="1538130657897" expanded="true" signature="323:369" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/requests_demo_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="97" column="14" lean-forward="false" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="181">
+          <caret line="101" column="4" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -845,15 +884,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/requests_demo_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/demo4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/demo05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <marker date="1543925586345" expanded="true" signature="11670:11677" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="1716">
+          <caret line="72" column="52" lean-forward="false" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/Event/AddEvent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <marker date="1539686489760" expanded="true" signature="464:510" ph="delete from " />
+            <marker date="1539686489760" expanded="true" signature="1191:1238" ph="select id fr... api_event" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/Event/EventDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <marker date="1539657963378" expanded="true" signature="462:486" ph="select id fr... api_event" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/requests_demo_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2834">
+          <caret line="112" column="52" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="52" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/AAARegister/Register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1542792698294" expanded="true" signature="946:995" ph="SELECT id fR... auth_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="8" selection-end-line="189" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

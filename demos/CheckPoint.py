@@ -1,5 +1,6 @@
 #自定义检查点 --- 原生断言 --- 封装
 import unittest
+import pymysql
 class CheckPoint(unittest.TestCase):
     def __init__(self):
         self.flag = 0
@@ -20,6 +21,14 @@ class CheckPoint(unittest.TestCase):
         except:
             self.flag += 1
             print('断言失败：实际结果[{f}],预期结果[<{s}]'.format(f=f, s=s))
+
+    def db_equal(self, f, sql):
+        db = pymysql.connect(host="139.199.132.220", user="root", password="123456", db="event")
+        cursor = db.cursor()
+        cursor.execute(sql)
+        cursor.fetchall()
+        db.commit()
+        db.close()
 
     def result(self):
         if self.flag > 0:

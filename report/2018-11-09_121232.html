@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">接口测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> QA</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-09-28 21:00:05</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.268666</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 2，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-11-09 12:12:32</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.433151</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率= 100.00%</p>
 
 <p class='description'></p>
 </div>
@@ -135,8 +135,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -157,7 +157,7 @@ function html_escape(s) {
 </tr>
 
 <tr class='passClass warning'>
-    <td>cases.AAARegister.Register.Register</td>
+    <td>cases.AAARegister.Register.Register: 登陆接口</td>
     <td class="text-center">1</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
@@ -189,7 +189,7 @@ pt1_1: {'token': '75ff30521dd7bafb48e07cf7e0a0b564dd8896a4', 'error_code': 0, 'u
 </tr>
 
 <tr class='passClass warning'>
-    <td>cases.Event.EventDetail.EventDetail</td>
+    <td>cases.Event.AddEvent.AddEvent: 添加会议接口</td>
     <td class="text-center">1</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
@@ -198,7 +198,7 @@ pt1_1: {'token': '75ff30521dd7bafb48e07cf7e0a0b564dd8896a4', 'error_code': 0, 'u
 </tr>
 
 <tr id='pt2_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_eventdetail01: 会议详细信息接口-正向流程</div></td>
+    <td class='passCase'><div class='testcase'>test_addevent01: 添加会议</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
@@ -209,10 +209,42 @@ pt1_1: {'token': '75ff30521dd7bafb48e07cf7e0a0b564dd8896a4', 'error_code': 0, 'u
     <div id='div_pt2_1' class="collapse in">
     <pre>
     
-pt2_1: {'event_detail': {'status': 1, 'title': '16期交流大会1537715473.51', 'start_time': '2018-09-30 16:00:00', 'limit': 100, 'address': '国家体育中心', 'id': '2213'}, 'error_code': 0}
+pt2_1: {'data': {'event_id': '5696', 'status': '0'}, 'error_code': 0}
 断言成功。响应状态码的实际结果：[200]，预期结果：[200]
 断言成功。实际结果：[0]，预期结果：[0]
-断言成功。实际结果：[2213]，预期结果：[2213]
+断言成功：实际结果[5696],预期结果[5696]
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>cases.Event.EventDetail.EventDetail: 获取会议详细信息接口</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_eventdetail01: 会议详细信息接口-正向流程</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse in">
+    <pre>
+    
+pt3_1: {'event_detail': {'status': 0, 'title': '000入职大会', 'start_time': '2018-10-31 16:00:00', 'limit': 100, 'address': '人民会堂', 'id': '4244'}, 'error_code': 0}
+断言成功。响应状态码的实际结果：[200]，预期结果：[200]
+断言成功。实际结果：[0]，预期结果：[0]
+断言成功。实际结果：[4244]，预期结果：[4244]
 
 
     </pre>
@@ -222,8 +254,8 @@ pt2_1: {'event_detail': {'status': 1, 'title': '16期交流大会1537715473.51',
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>2</td>
-    <td>2</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>

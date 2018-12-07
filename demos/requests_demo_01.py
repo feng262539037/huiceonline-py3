@@ -12,13 +12,13 @@ import json
 
 #GET有参
 #响应是xml，用python去解析
-# url = 'http://ws.webxml.com.cn/WebServices/WeatherWS.asmx/getSupportCityString'
-# params_dic = {'theRegionCode': '3117'}
-# response = requests.get(url=url, params=params_dic)
+url = 'http://ws.webxml.com.cn/WebServices/WeatherWS.asmx/getSupportCityString'
+params_dic = {'theRegionCode': '3117'}
+response = requests.get(url=url, params=params_dic)
 # # print(type(response.text))  #unicode编码，字符串
-# # print(response.text)
+# print(response.text)
 # #从xml字符串(response.text)中解析它，转成elementtree
-# print(ET.fromstring(response.text).find('.//{http://WebXml.com.cn/}string').text)
+print(ET.fromstring(response.text).find('.//{http://WebXml.com.cn/}string').text)
 # #findall返回list。可以校验长度
 # print(len(ET.fromstring(response.text).findall('.//{http://WebXml.com.cn/}string')))
 
@@ -80,8 +80,10 @@ import json
 # headers_dic = {'Content-Type': 'application/json'}
 # data_dic = {'theCityCode': 1}
 # response = requests.post(url=url, headers = headers_dic, data=json.dumps(data_dic))
-# print response.status_code
-# print response.text
+# # print(response.status_code)
+# # print(response.text)
+# print(type(response.json()))
+# print(json.dumps(response.json(),indent=2))
 
 #POST
 #raw:json
@@ -95,8 +97,10 @@ response = requests.post(url=url, headers = headers_dic, json=data_dic)
 # print response.status_code
 # print response.headers
 # print response.cookies
-# #print('type(response.json) =%s' %type(response.json()))  #dict
+# print('type(response.json) =%s' %type(response.json()))  #dict
 # print(response.json())
+#把字典转成json串
+# print(json.dumps(response.json()))
 # # print response.json()['name']
 # #下面的，如果找不到，返回None，而不会报错
 # print(response.json().get('name'))
@@ -105,8 +109,11 @@ response = requests.post(url=url, headers = headers_dic, json=data_dic)
 #解析json
 # $ 代表根路径
 # . 代表下一层路径
-print(response.json())
-print(jsonpath.jsonpath(response.json(), '$.name')[0]) #返回列表，有可能返回多个，根据列表的索引取第一项
+# print(response.json())
+# print(jsonpath.jsonpath(response.json(), '$.name'))
+# print(jsonpath.jsonpath(response.json(), '$.name')[0]) #返回列表，有可能返回多个，根据列表的索引取第一项
+
+#如果返回的是文本信息(比如：html/text)，还可以用正则表达式，从正文体中提取想要的信息
 
 #请求响应时间,毫秒
 #round,四舍五入
